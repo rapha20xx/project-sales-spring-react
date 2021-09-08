@@ -35,7 +35,7 @@ public class Sale {
 		this.deals = deals;
 		this.amount = amount;
 		this.date = date;
-		this.sleller = sleller;
+		this.seller = sleller;
 	}
 
 	public Long getId() {
@@ -79,11 +79,11 @@ public class Sale {
 	}
 
 	public Seller getSleller() {
-		return sleller;
+		return seller;
 	}
 
 	public void setSleller(Seller sleller) {
-		this.sleller = sleller;
+		this.seller = sleller;
 	}	
 }
 
